@@ -3,10 +3,12 @@ package com.company;
 class Human {
     private int age;
     private char gender;
+    private float height;
 
-    Human(int age, char gender) {
+    Human(int age, char gender, float height) {
         this.age = age;
         this.gender = gender;
+        this.height = height;
     }
 
     public int getAge() {
